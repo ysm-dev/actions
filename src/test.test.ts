@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 import StealthPlugin from 'puppeteer-extra-plugin-stealth'
 import { chromium } from 'playwright-extra'
-import fetch from 'node-fetch'
+import fetch from 'isomorphic-fetch'
 
 test('Test', async ({}) => {
   let blockCount = 0
