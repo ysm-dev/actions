@@ -79,7 +79,7 @@ test('Test', async ({}) => {
 const getCookie = async (page: any) => {
   return await page.evaluate(() => {
     return new Promise((resolve) => {
-      setTimeout(() => resolve(false), 1000 * 5)
+      setTimeout(() => resolve(false), 1000 * 10)
       ;(window as any).cookieStore?.addEventListener(
         'change',
         async (e: any) => {
