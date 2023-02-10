@@ -25,7 +25,8 @@ jobs:
         run: pnpm exec playwright install --with-deps
       - name: Run Playwright tests
         uses: GabrielBB/xvfb-action@v1
-        run: pnpm exec playwright test
+        with:
+          run: pnpm exec playwright test
       - uses: actions/upload-artifact@v3
         if: always()
         with:
