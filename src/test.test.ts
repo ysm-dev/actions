@@ -53,6 +53,7 @@ test('Test', async ({}) => {
         blockCount = 0
         console.log('not blocked', blockCount)
         const cookie = await getCookie(page)
+
         if(cookie === false){
           await page?.reload()
           continue

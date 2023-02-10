@@ -1,7 +1,8 @@
 {
   "name": "actions",
   "scripts": {
-    "test": "xvfb-run playwright test"
+    "test": "xvfb-run playwright test",
+    "local": "playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.30.0",
