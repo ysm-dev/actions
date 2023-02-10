@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 import StealthPlugin from 'puppeteer-extra-plugin-stealth'
 import { chromium } from 'playwright-extra'
-
+import fetch from 'node-fetch'
 
 test('Test', async ({}) => {
   let blockCount = 0
@@ -55,7 +55,7 @@ test('Test', async ({}) => {
         console.log('not blocked', blockCount)
         const cookie = await getCookie(page)
 
-        if(cookie === false){
+        if (cookie === false) {
           await page?.reload()
           continue
         }
