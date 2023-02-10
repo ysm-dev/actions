@@ -2,12 +2,13 @@ import { test, expect } from '@playwright/test'
 import StealthPlugin from 'puppeteer-extra-plugin-stealth'
 import { chromium } from 'playwright-extra'
 
-chromium.use(StealthPlugin())
 
 test('Test', async ({}) => {
   let blockCount = 0
   let browser: any = null
   let page: any = null
+
+  chromium.use(StealthPlugin())
 
   while (true) {
     try {
