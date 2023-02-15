@@ -62,10 +62,10 @@ test('Test', async ({}) => {
 
         console.log(cookie)
         saveCookie(cookie)
-        if (!!cookie) {
-          break
-        }
-        await page?.waitForTimeout(1 * 5 * 1000)
+        // if (!!cookie) {
+        //   break
+        // }
+        await page?.waitForTimeout(1 * 30 * 1000)
         await page?.reload()
       }
     } catch (e) {
