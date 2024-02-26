@@ -5,15 +5,15 @@
     "local": "playwright test"
   },
   "devDependencies": {
-    "@playwright/test": "^1.30.0",
-    "@types/isomorphic-fetch": "^0.0.36",
-    "@types/node": "^18.13.0",
-    "playwright": "^1.30.0",
-    "playwright-extra": "^4.3.5",
-    "puppeteer-extra-plugin-stealth": "^2.11.1"
+    "@playwright/test": "1.30.0",
+    "@types/isomorphic-fetch": "0.0.36",
+    "@types/node": "18.13.0",
+    "playwright": "1.30.0",
+    "playwright-extra": "4.3.5",
+    "puppeteer-extra-plugin-stealth": "2.11.1"
   },
   "dependencies": {
-    "isomorphic-fetch": "^3.0.0",
-    "node-fetch": "^3.3.0"
+    "isomorphic-fetch": "3.0.0",
+    "node-fetch": "3.3.0"
   }
 }
