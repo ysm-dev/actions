@@ -60,8 +60,8 @@ test("Test", async ({}) => {
           continue;
         }
 
-        console.log(cookie);
-        saveCookie(cookie);
+        console.log("cookie:", cookie);
+        await saveCookie(cookie);
         if (!!cookie) {
           break;
         }
