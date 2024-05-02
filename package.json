@@ -2,18 +2,22 @@
   "name": "actions",
   "scripts": {
     "test": "xvfb-run playwright test",
-    "local": "playwright test"
-  },
-  "devDependencies": {
-    "@playwright/test": "1.30.0",
-    "@types/isomorphic-fetch": "0.0.36",
-    "@types/node": "18.13.0",
-    "playwright": "1.30.0",
-    "playwright-extra": "4.3.5",
-    "puppeteer-extra-plugin-stealth": "2.11.1"
+    "local": "playwright test",
+    "clean": "rm -rf node_modules .next out dist .wrangler bun.lockb",
+    "check": "ncu",
+    "bump": "ncu -u"
   },
   "dependencies": {
     "isomorphic-fetch": "3.0.0",
-    "node-fetch": "3.3.0"
+    "node-fetch": "3.3.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.43.1",
+    "@types/isomorphic-fetch": "0.0.39",
+    "@types/node": "20.12.8",
+    "npm-check-updates": "16.14.20",
+    "playwright": "1.43.1",
+    "playwright-extra": "4.3.6",
+    "puppeteer-extra-plugin-stealth": "2.11.2"
   }
 }
