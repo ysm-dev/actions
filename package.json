@@ -14,7 +14,7 @@
   "devDependencies": {
     "@playwright/test": "1.44.0",
     "@types/isomorphic-fetch": "0.0.39",
-    "@types/node": "20.12.11",
+    "@types/node": "20.12.12",
     "npm-check-updates": "16.14.20",
     "playwright": "1.44.0",
     "playwright-extra": "4.3.6",
