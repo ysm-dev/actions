@@ -3,9 +3,7 @@
   "scripts": {
     "test": "xvfb-run playwright test",
     "local": "playwright test",
-    "clean": "rm -rf node_modules .next out dist .wrangler bun.lockb",
-    "check": "ncu",
-    "bump": "ncu -u"
+    "clean": "rm -rf node_modules .next out dist .wrangler bun.lockb"
   },
   "dependencies": {
     "isomorphic-fetch": "3.0.0",
@@ -15,7 +13,6 @@
     "@playwright/test": "1.44.1",
     "@types/isomorphic-fetch": "0.0.39",
     "@types/node": "20.12.13",
-    "npm-check-updates": "16.14.20",
     "playwright": "1.44.1",
     "playwright-extra": "4.3.6",
     "puppeteer-extra-plugin-stealth": "2.11.2"
