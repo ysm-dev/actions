@@ -15,7 +15,7 @@
     "@biomejs/biome": "^1.8.3",
     "@playwright/test": "^1.45.3",
     "@types/isomorphic-fetch": "^0.0.39",
-    "@types/node": "^20.14.14",
+    "@types/node": "^22.1.0",
     "playwright": "^1.45.3",
     "playwright-extra": "^4.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
