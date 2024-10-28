@@ -13,10 +13,10 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@playwright/test": "^1.48.1",
+    "@playwright/test": "^1.48.2",
     "@types/isomorphic-fetch": "^0.0.39",
-    "@types/node": "^22.7.7",
-    "playwright": "^1.48.1",
+    "@types/node": "^22.8.1",
+    "playwright": "^1.48.2",
     "playwright-extra": "^4.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "taze": "^0.17.2"
